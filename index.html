@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
+<link rel="stylesheet" href="css/pokemonstyle.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/animate.css">
+<!--you have to goto animate.css-->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="images/parallax.js"></script>
+	<title>Some company webpage</title>
+
+	<!--  -->
+
+	<style>
+
+	</style>
+
+</head>
+
+<body>
+<!--navigation bar starts here-->
+<div class="navbar-wrapper">
+<div class="container">
+    <nav class="navbar navbar-inverse navbar-static-top">
+<!--     inverse makes navbar black navbar-static-top makes it to stick to the top-->
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Pokemon</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">About Pokemons</a></li>
+        <li><a href="#">Catch Pokemons</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Locations <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">California</a></li>
+            <li><a href="#">London</a></li>
+            <li><a href="#">Munmbai</a></li>
+            <li role="separator" class="divider"></li>
+            <li  class="dropdown-header">Coming Gigs</li>
+<!--            dropdown-header for headings in dropdowns-->
+            <li><a href="#">Brazil</a></li>
+            <li><a href="#">Argentina</a></li>
+            <li><a href="#">China</a></li>
+          </ul>
+        </li>
+        
+      </ul>
+      
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><i class="fa fa-user-plus" aria-hidden="true"></i>Sign Up</a></li>
+        
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+</div>
+    </div>
+<!--navigation bar ends here-->	
+<!--crousel starts here-->
+<!--mycrousel id given so thst we can style it in our own way-->
+<div id="myCrousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+<!--     images for slider are added here-->
+      <img src="images/slide1.jpeg" alt="First slide">
+<!--    carousel-caption for adding captions on the slide  -->
+      <div class="carousel-caption">
+     <h1>Some Information</h1>
+     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam odit sequi sint voluptatibus consequuntur aliquam a amet cum nihil placeat.</p>
+     <p><a class="btn btn-default btn-lg" href="">KNOW MORE</a></p>
+      </div>
+    </div>
+    <div class="item">
+      <img src="images/slide2.jpeg" alt="second slide">
+      <div class="carousel-caption">
+     <h1>Some Information</h1>
+     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam odit sequi sint voluptatibus consequuntur aliquam a amet cum nihil placeat.</p>
+     <p><a class="btn btn-default btn-lg" href="">KNOW MORE</a></p>
+      </div>
+    </div>
+   
+     <div class="item">
+      <img src="images/slide3.jpeg" alt="third slide">
+      <div class="carousel-caption">
+    <h1>Some Information</h1>
+     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam odit sequi sint voluptatibus consequuntur aliquam a amet cum nihil placeat.</p>
+     <p><a class="btn btn-default btn-lg" href="">KNOW MORE</a></p>
+      </div>
+    </div>
+  
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+<!--carousel ends here-->
+<!--team section starts here-->
+<div class="container team">
+    <div class="row">
+        <div class="col-lg-4">
+            <img src="images/boyjpeg.jpeg" alt="boy 1 image" class="img-circle animated wobble infinite" width="140" height="140">
+<!--            img-circle to make image cicular-->
+       <h1>Team member 1</h1>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit dolorem dicta, optio dolore sapiente ipsa rerum consequuntur, commodi cumque vel nam consequatur. Fugit, dolorum, repellendus.</p>
+       <p><a href="#" class="btn btn-default">Sign Up &raquo;</a></p>
+<!--       &raquo; gives arrow sign next to sign up-->
+        </div>
+        <div class="col-lg-4">
+            <img src="images/boyjpeg.jpeg" alt="boy 1 image" class="img-circle animated wobble infinite" width="140" height="140">
+<!--            img-circle to make image cicular-->
+       <h1>Team member 2</h1>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit dolorem dicta, optio dolore sapiente ipsa rerum consequuntur, commodi cumque vel nam consequatur. Fugit, dolorum, repellendus.</p>
+       <p><a href="#" class="btn btn-default">Sign Up &raquo;</a></p>
+        </div>
+        <div class="col-lg-4">
+            <img src="images/boyjpeg.jpeg" alt="boy 1 image" class="img-circle animated wobble infinite" width="140" height="140">
+<!--            img-circle to make image cicular-->
+       <h1>Team member 3</h1>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit dolorem dicta, optio dolore sapiente ipsa rerum consequuntur, commodi cumque vel nam consequatur. Fugit, dolorum, repellendus.</p>
+       <p><a href="#" class="btn btn-default">Sign Up &raquo;</a></p>
+        </div>
+    </div>
+</div>
+<!--team section ends here-->
+<hr class="divider">
+<!--content section starts here-->
+<div class="row content">
+    <div class="col-md-7 mickey">
+        <h2 class="content-heading">First heading goes here.<span class="text-muted">This looks great</span></h2>
+<!--       text-muted is a class in bootstrap which makes text greyish -->
+   <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt consequatur quia maxime. Iure praesentium incidunt, ex dolore? Dolorem, ut deleniti.</p>
+<!--   lead changes the font type-->
+    </div>
+    <div class="col-md-5">
+        <img src="images/pexels-photo.jpg" alt="" class="content-image img-responsive centre-block">
+    </div>
+    
+</div>
+<div data-parallax="scroll" data-image-src="images/dog.jpeg" class="row content white" >
+  
+   <div class="col-md-5">
+        <img src="images/pexels-photo.jpg" alt="" class="content-image img-responsive centre-block">
+    </div>
+    <div   class="col-md-7 mickey">
+        <h2 class="content-heading">First heading goes here.<span class="text-muted">This looks great</span></h2>
+<!--       text-muted is a class in bootstrap which makes text greyish -->
+   <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt consequatur quia maxime. Iure praesentium incidunt, ex dolore? Dolorem, ut deleniti.</p>
+        <!--   lead changes the font type-->
+    </div>
+    
+    
+</div>
+<div class="row content">
+    <div class="col-md-7 mickey">
+        <h2 class="content-heading">First heading goes here.<span class="text-muted">This looks great</span></h2>
+<!--       text-muted is a class in bootstrap which makes text greyish -->
+   <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt consequatur quia maxime. Iure praesentium incidunt, ex dolore? Dolorem, ut deleniti.</p>
+<!--   lead changes the font type-->
+    </div>
+    <div class="col-md-5">
+        <img src="images/pexels-photo.jpg" alt="" class="content-image img-responsive centre-block">
+    </div>
+    
+</div>
+<!--content section ends here-->
+<!--footer starts here-->
+<div class="footstyle">
+    <footer>
+       <p class="pull-right"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i>GO UP</p>
+        <p>&copy;2018 POKEMON INC&middot; <a href="#">TERMS</a>&middot;<a href="#">CONDITIONS</a></p>
+    </footer>
+</div>
+<!--footer ends here-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+	<script>
+	</script>
+
+</body>
+
+</html>

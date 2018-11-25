@@ -1,0 +1,94 @@
+body{
+   
+    color: #5a5a5a;
+   
+}
+.navbar-wrapper{
+    position: absolute;
+/*    now we have to mention its top ,left and right position according to us*/
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 20;
+    
+/*    we have given z-index of this class higher value so that it always remains above al the components */
+}
+,navbar-wrapper > .container
+{
+    padding-right: 0;
+    padding-left:  0;
+    
+}
+.navbar-wrapper .navbar .container
+{
+    width: auto;
+}
+/*above code makes it to adjust on small devices*/
+.navbar-wrapper .navbar{
+    padding-right: 20px;
+    padding-left:  20px;
+}
+.carousel{
+    
+    height: 500px;
+    margin-bottom: 50px;
+}
+.carousel .item{
+    height: 500px;
+}
+.carousel-inner > .item > img{
+    position: absolute;
+    height: 500px;
+     min-width: 100%;
+    top: 0;
+    left: 0;
+   
+    
+}
+.team .col-lg-4{
+    text-align: center;
+}
+.team h1{
+    color: rgba(50,50,50,0.8);
+}
+.team p{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.divider{
+    margin: 40px 0;
+}
+.mickey{
+    padding-left: 50px;
+    text-align: center;
+    padding-top: 80px;
+}
+.content{
+    padding-bottom: 30px;
+  
+}
+
+.footstyle{
+    margin-top: 20px;
+    background-color: rgb(34,34,34);
+    height: 100px;
+   
+}
+.footstyle  footer{
+    padding: 0 40px;
+}
+
+div{
+    overflow: hidden;
+}
+.white{
+    color: white;
+}
+.white span{
+    color: white;
+}
+
+.dropdown{
+    z-index: 19;
+    
+}
